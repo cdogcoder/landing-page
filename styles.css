@@ -175,6 +175,24 @@ body {
 
 #four .action-container {
     display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 125px;
+    width: 950px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 168px;
+}
+
+#four .description {
+    font-weight: bold;
+}
+
+#four .action-container button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
 }
 
 #four .footer {
