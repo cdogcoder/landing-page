@@ -136,7 +136,27 @@ body {
 }
 
 
-
 #three {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+#three .content {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+#three p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#three h3 {
+    text-align: end;
+    font-size: 24px;
 }
