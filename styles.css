@@ -179,24 +179,42 @@ body {
     color: #f9faf8;
     height: 125px;
     width: 950px;
-    border-radius: 4px;
+    border-radius: 6px;
     justify-content: center;
     align-items: center;
     gap: 168px;
 }
 
 #four .description {
-    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
-#four .action-container button {
+#four .heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#four .description p {
+    color: #e5e7eb;
+}
+
+#four button {
     background-color: #3882f6;
     border: 2px solid #f9faf8;
     color: #f9faf8;
+    padding: 5px 26px;
+    border-radius: 4px;
+    font-weight: bold;
 }
 
 #four .footer {
     flex-shrink: 0;
     height: 100px;
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
