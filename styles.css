@@ -160,3 +160,25 @@ body {
     text-align: end;
     font-size: 24px;
 }
+
+#four {
+    display: flex;
+    flex-direction: column;
+}
+
+#four .content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#four .action-container {
+    display: flex;
+}
+
+#four .footer {
+    flex-shrink: 0;
+    height: 100px;
+    background-color: #1f2937;
+}
